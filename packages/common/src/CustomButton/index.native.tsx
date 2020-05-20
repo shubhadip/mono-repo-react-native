@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
 
   const defaultProps: Iprops = {
       customContainerClass: {},
-      buttonColor: 'blue',
+      buttonColor: 'red',
       disabled: false
   }
 
@@ -27,7 +27,7 @@ const ButtonNative : React.FunctionComponent<Iprops> = (props) => {
         props.onClick ? props.onClick() : null
     }
 
-    const title = props.text || 'Button Native  I am '
+    const title = props.text || 'Button'
 
     return (
         <View style={[styles.viewContainer, props.customContainerClass]}>

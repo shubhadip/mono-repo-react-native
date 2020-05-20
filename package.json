@@ -5,7 +5,9 @@
     "lerna": "^3.20.2"
   },
   "scripts": {
-    "dev": "lerna run dev"
+    "webdev": "lerna run web --stream",
+    "libdev": "lerna run lib --stream",
+    "androiddev": "lerna run android --stream"
   },
   "workspaces": {
     "packages": [

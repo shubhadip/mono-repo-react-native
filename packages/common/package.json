@@ -6,7 +6,7 @@
   "private":true,
   "scripts": {
     "build": "./../../node_modules/typescript/bin/tsc",
-    "watch": "./../../node_modules/typescript/bin/tsc -w"
+    "lib": "./../../node_modules/typescript/bin/tsc -w"
   },
   "keywords": [],
   "author": "",

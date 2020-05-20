@@ -8,14 +8,14 @@ var styles = StyleSheet.create({
 ;
 var defaultProps = {
     customContainerClass: {},
-    buttonColor: 'blue',
+    buttonColor: 'green',
     disabled: false
 };
 var ButtonWeb = function (props) {
     var handlePress = function () {
         props.onClick ? props.onClick() : null;
     };
-    var title = props.text || 'Button Web Test';
+    var title = props.text || 'Button';
     return (React.createElement(View, { style: [styles.viewContainer, props.customContainerClass] }, props.children ? props.children : React.createElement(Button, { title: title, onPress: handlePress, color: props.buttonColor, disabled: props.disabled })));
 };
 ButtonWeb.defaultProps = defaultProps;

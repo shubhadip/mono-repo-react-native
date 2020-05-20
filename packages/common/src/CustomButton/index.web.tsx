@@ -17,7 +17,7 @@ interface Iprops {
 
 const defaultProps: Iprops = {
     customContainerClass: {},
-    buttonColor: 'blue',
+    buttonColor: 'green',
     disabled: false
 }
 
@@ -27,7 +27,7 @@ const ButtonWeb : React.FunctionComponent<Iprops> = (props) => {
         props.onClick ? props.onClick() : null
     }
 
-    const title = props.text || 'Button Web Test'
+    const title = props.text || 'Button'
 
     return (
         <View style={[styles.viewContainer, props.customContainerClass]}>
