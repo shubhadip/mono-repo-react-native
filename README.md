@@ -1,10 +1,12 @@
 # mono-repo-react-native
 ReactNative and ReactNativeWeb MonoRepo
+
 \
 \
 ## code sharing between Web, iOS and Android
 \
 \
+
 **Technology Used:**\
 [React](https://reactjs.org/)\
 [React Native](https://facebook.github.io/react-native/)\
@@ -38,8 +40,10 @@ https://github.com/shubhadip/mono-repo-react-native
 - Run `yarn libdev` and `yarn androiddev` this is make sure your changes are reflected in realtime when you change code in library
 
 > to develop android code we have to make a symlink from library to android folder.
-> npm install -g wml.
-> wml add ./packages/common ./packages/nativeapp/node_modules/monoreactrepo.
+
+`npm install -g wml`.
+`wml add ./packages/common ./packages/nativeapp/node_modules/monoreactrepo`.
+
 > now you will updated code everytime you change something in library code.
 
 ## To Import Library
