@@ -1,6 +1,5 @@
 # mono-repo-react-native
 ReactNative and ReactNativeWeb MonoRepo
-\
 ## code sharing between Web, iOS and Android
 \
 **Technology Used:**\
