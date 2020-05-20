@@ -1,0 +1,27 @@
+{
+  "name": "monoreporeact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/index.js",
+  "private":true,
+  "scripts": {
+    "build": "./../../node_modules/typescript/bin/tsc",
+    "watch": "./../../node_modules/typescript/bin/tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-native": "^0.62.2",
+    "react-native-web": "^0.12.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-native": "^0.62.10",
+    "ts-loader": "^7.0.4",
+    "typescript": "^3.9.3"
+  }
+}

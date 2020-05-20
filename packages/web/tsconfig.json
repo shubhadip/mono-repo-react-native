@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+      "outDir": "./build/",
+      "module": "esnext",
+      "target": "es5",
+      "lib": ["es6", "dom"],
+      "typeRoots" : [
+        "./typings" 
+	],
+      "sourceMap": true,
+      "allowJs": true,
+      "jsx": "react",
+      "moduleResolution": "node",
+      "forceConsistentCasingInFileNames": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": false,
+      "noImplicitAny": false,
+      "importHelpers": true,
+      "strictNullChecks": true,
+      "suppressImplicitAnyIndexErrors": true,
+      "noUnusedLocals": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "resolveJsonModule": true,
+      "isolatedModules": false,
+      "noEmit": false,
+      "strictPropertyInitialization": false
+    },
+    "exclude": [
+      "node_modules/**",
+      "build",
+      "scripts",
+      "acceptance-tests",
+      "webpack",
+      "jest",
+    ]
+  }
