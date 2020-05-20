@@ -1,18 +1,13 @@
 # mono-repo-react-native
 ReactNative and ReactNativeWeb MonoRepo
-
-\
 \
 ## code sharing between Web, iOS and Android
 \
-\
-
 **Technology Used:**\
 [React](https://reactjs.org/)\
 [React Native](https://facebook.github.io/react-native/)\
 [React Native Web](https://github.com/necolas/react-native-web)\
 [Lerna](https://github.com/lerna/lerna)\
-
 \
 \
 **To Run the Project:**\
