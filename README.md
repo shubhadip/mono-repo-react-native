@@ -36,7 +36,8 @@ https://github.com/shubhadip/mono-repo-react-native
 > to develop android code we have to make a symlink from library to android folder.
 
 `npm install -g wml`.
-`wml add ./packages/common ./packages/nativeapp/node_modules/monoreactrepo`.
+`wml add ./packages/common ./packages/nativeapp/node_modules/monoreactrepo`
+`wml start`.
 
 > now you will updated code everytime you change something in library code.
 
