@@ -23,9 +23,13 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import { CustomButton } from 'monoreactrepo';
+import {CustomButton} from 'monoreactrepo';
 
-const App: () => React$Node = () => {
+const App = () => {
+  const handleClick = () => {
+    console.log('called');
+  };
+
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -46,7 +50,11 @@ const App: () => React$Node = () => {
                 Edit <Text style={styles.highlight}>App.js</Text> to change this
                 screen and then come back to see your edits.
               </Text>
-              <CustomButton />
+              <CustomButton
+                text={'Click Me '}
+                buttonColor={'#F0F'}
+                onClick={handleClick}
+              />
             </View>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>See Your Changes</Text>

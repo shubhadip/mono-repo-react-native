@@ -5,9 +5,9 @@
     "lerna": "^3.20.2"
   },
   "scripts": {
-    "webdev": "lerna run web --stream",
-    "libdev": "lerna run lib --stream",
-    "androiddev": "lerna run android --stream",
+    "webdev": "lerna --scope='@monorepo/web' run dev --stream --",
+    "libdev": "lerna --scope='monoreporeact' run lib --stream --",
+    "androiddev": "lerna --scope='nativeApp' run android --stream --",
     "new_version": "lerna version --conventional-commits --yes"
   },
   "workspaces": {
