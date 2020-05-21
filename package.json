@@ -7,7 +7,8 @@
   "scripts": {
     "webdev": "lerna run web --stream",
     "libdev": "lerna run lib --stream",
-    "androiddev": "lerna run android --stream"
+    "androiddev": "lerna run android --stream",
+    "new_version": "lerna version --conventional-commits --yes"
   },
   "workspaces": {
     "packages": [
