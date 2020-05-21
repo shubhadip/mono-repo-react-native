@@ -1,9 +1,9 @@
 {
   "name": "monoreporeact",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./build/index.js",
-  "private":true,
+  "private": true,
   "scripts": {
     "build": "./../../node_modules/typescript/bin/tsc",
     "lib": "./../../node_modules/typescript/bin/tsc -w"

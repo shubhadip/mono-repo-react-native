@@ -1,6 +1,6 @@
 {
   "name": "@monorepo/web",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -21,10 +21,10 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "monoreporeact": "^1.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-native": "^0.62.2",
-    "react-native-web": "^0.12.2",
-    "monoreporeact": "1.0.0"
+    "react-native-web": "^0.12.2"
   }
 }

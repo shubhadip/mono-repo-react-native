@@ -1,6 +1,6 @@
 {
   "name": "nativeApp",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
@@ -11,9 +11,9 @@
     "native-dev": "npm run android"
   },
   "dependencies": {
+    "monoreporeact": "^1.0.1",
     "react": "16.11.0",
-    "react-native": "0.62.2",
-    "monoreporeact": "1.0.0"
+    "react-native": "0.62.2"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",
