@@ -14,7 +14,7 @@
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-native": "^0.62.2",
+    "react-native": "^0.62.3",
     "react-native-web": "^0.12.2"
   },
   "devDependencies": {
